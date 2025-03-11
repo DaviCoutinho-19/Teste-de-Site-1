@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Teste</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+        header, nav, section, article, footer { padding: 20px; border-bottom: 1px solid #ddd; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 15px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        table, th, td { border: 1px solid black; padding: 10px; text-align: left; }
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>Teste de Site</h1>
+        <p>Apenas um site de teste HTML</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#conteudo">Conteúdo</a></li>
+            <li><a href="#tabela">Tabela</a></li>
+            <li><a href="#formulario">Formulário</a></li>
+            <li><a href="#rodape">Rodapé</a></li>
+            <li><a href="imagens"></a></li>
+        </ul>
+    </nav>
+    
+    <section id="introducao">
+        <h2>Introdução</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores ad distinctio labore impedit. Perferendis incidunt doloribus voluptas veritatis nesciunt?</p>
+    </section>
+    
+    <section id="conteudo">
+        <h2>Seção de Conteúdo</h2>
+        <article>
+            <h3>Artigo 1: História da Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et at eveniet maxime saepe dolorum temporibus sit! Ex explicabo, distinctio vitae fuga ab commodi, magnam dicta cumque, nihil ad vero voluptas? </p>
+        </article>
+        <article>
+            <h3>Artigo 2: Padrões Web</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iure, provident at vel earum assumenda soluta tenetur deleniti ipsum dolorum.</p>
+        </article>
+        <article>
+            <h3>Artigo 3: Importância do HTML5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem perferendis aspernatur quibusdam reprehenderit at, exercitationem eos nihil hic et nemo.</p>
+        </article>
+    </section>
+    <section id="tabela">
+    <table>
+        <caption>Tabela de Teste</caption>
+        <tr>
+            <th>Nacionalidade</th>
+            <th>Banda / Artista</th>
+            <th>Musica</th>
+            <th>Aplicativo</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Brasil</td>
+            <td>Seu Jorge</td>
+            <td>São Gonça</td>
+            <td>Spotify</td>
+        </tr>
+        <tr>
+            <td>Racionais</td>
+            <td>A Vítima</td>
+            <td>Youtube</td>
+        </tr>
+    </table>
+    </section>
+    <section id="formulario">
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <section id="imagens">
+            <div class="imagem-container">
+                <img src="img/YessirWallpaper 1.jpg" height="430px">
+            </div>
+            <div class="imagem-container">
+                <img src="img/YessirWallpaper 2.jpg" height="430px">
+            </div>
+            <div class="imagem-container">
+                <img src="img/YessirWallpaper 3.png" height="430px">
+            </div>
+            <div class="imagem-container">
+                <img src="img/YessirWallpaper 4.png" height="430px">
+            </div>
+            <div class="imagem-container">
+                <img src="img/YessirWallpaper 5.png" height="430px">
+            </div>
+            <div class="imagem-container">
+                <img src="img/YessirWallpaper 6.png" height="430px">
+            </div>
+        </section>
+    <footer id="rodape">
+        <p>&copy; 2025 Site Teste.</p>
+    </footer>
+</body>
+</html>
